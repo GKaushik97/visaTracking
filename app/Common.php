@@ -14,3 +14,4 @@
  * @see: https://codeigniter.com/user_guide/extending/common.html
  */
 define(MESSAGE, "Hello Please Enter Visa Details");
+define(ERROR_MESSAGE, "Hello Please Enter Visa Details PROPERLY");
