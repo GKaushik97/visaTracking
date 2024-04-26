@@ -1,0 +1,1331 @@
+INFO - 2024-04-25 03:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 03:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 03:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 03:59:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:03:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:04:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:04:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:37:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:37:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:42:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 05:42:07 --> ErrorException: Undefined offset: 4
+in APPPATH/Views/user/users/users_body.php on line 112.
+ 1 APPPATH/Views/user/users/users_body.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/user/users/users_body.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/user/users/users.php(9): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/user/users/users.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User/User.php(43): view()
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User\User->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 05:42:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 05:42:19 --> ErrorException: Undefined offset: 4
+in APPPATH/Views/user/users/users_body.php on line 112.
+ 1 APPPATH/Views/user/users/users_body.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/user/users/users_body.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/user/users/users.php(9): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/user/users/users.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User/User.php(43): view()
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User\User->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 05:51:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 05:59:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:00:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:02:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 06:08:44 --> ErrorException: Undefined offset: 4
+in APPPATH/Views/user/users/users_body.php on line 112.
+ 1 APPPATH/Views/user/users/users_body.php(112): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/user/users/users_body.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/user/users/users.php(9): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/user/users/users.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/User/User.php(43): view()
+10 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User\User->index()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 06:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:11:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:52:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:52:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:52:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:53:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:54:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:54:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:54:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:54:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:54:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:55:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:55:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:55:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:55:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:56:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 06:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:01:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:04:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 07:04:09 --> ErrorException: Undefined index: created_by
+in APPPATH/Views/visaTracking/employee/employee_document.php on line 30.
+ 1 APPPATH/Views/visaTracking/employee/employee_document.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/employee_document.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/visaTracking/employee/view_employee.php(361): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/view_employee.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/visaTracking/Employees.php(545): view()
+10 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->viewEmployee()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 07:04:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 07:04:10 --> ErrorException: Undefined index: created_by
+in APPPATH/Views/visaTracking/employee/employee_document.php on line 30.
+ 1 APPPATH/Views/visaTracking/employee/employee_document.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/employee_document.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/visaTracking/employee/view_employee.php(361): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/view_employee.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/visaTracking/Employees.php(545): view()
+10 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->viewEmployee()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 07:04:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 07:04:13 --> ErrorException: Undefined index: created_by
+in APPPATH/Views/visaTracking/employee/employee_document.php on line 30.
+ 1 APPPATH/Views/visaTracking/employee/employee_document.php(30): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/employee_document.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Views/visaTracking/employee/view_employee.php(361): view()
+ 6 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/view_employee.php')
+ 7 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 9 APPPATH/Controllers/visaTracking/Employees.php(545): view()
+10 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->viewEmployee()
+11 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+12 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+13 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 07:05:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:05:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:10:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:10:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:10:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:12:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:12:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:12:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:13:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:13:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:14:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:14:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:36:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:41:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:41:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:41:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:44:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:52:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:52:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:52:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 07:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:02:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:02:24 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:02:41 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:02:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:03:19 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:03:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:03:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:11:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:12:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:12:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:12:27 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 80.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:13:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:56:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:56:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:56:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:56:48 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:56:56 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:56:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:56:56 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:56:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:56:58 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:57:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:57:50 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:57:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:57:52 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:57:53 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:57:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:57:53 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:57:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:57:56 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:57:59 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:58:03 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:58:06 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:58:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 08:58:08 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 08:58:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 08:58:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:00:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:01:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:01:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:04:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:04:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:04:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:05:04 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:05:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:06:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:06:04 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:06:05 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:06:09 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:06:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:06:13 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:06:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:06:14 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:08:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:09:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:09:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:09:08 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:17:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:17:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:18:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:18:04 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:18:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:18:06 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:18:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:18:09 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:18:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:18:32 --> TypeError: Return value of App\Controllers\visaTracking\EmployeeEducation::update() must be of the type string, none returned
+in APPPATH/Controllers/visaTracking/EmployeeEducation.php on line 142.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:19:05 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:19:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:19:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:19:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:19:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:19:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:20:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:20:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:20:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:21:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:18 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:18 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:25:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:28 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:25:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:29 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:30 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:25:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:30 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:25:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:25:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:25:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:25:59 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:28:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:28:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:29:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:29:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:29:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:32:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:32:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:34:26 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:34:26 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:34:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:34:26 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:34:27 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(139): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:34:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:34:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:35:06 --> CodeIgniter\Validation\Exceptions\ValidationException: "32" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/visaTracking/EmployeeEducation.php(115): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:35:06 --> CodeIgniter\Validation\Exceptions\ValidationException: "32" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/visaTracking/EmployeeEducation.php(115): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:35:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:35:06 --> CodeIgniter\Validation\Exceptions\ValidationException: "32" is not a valid rule.
+in SYSTEMPATH/Validation/Validation.php on line 336.
+ 1 SYSTEMPATH/Validation/Validation.php(336): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound()
+ 2 SYSTEMPATH/Validation/Validation.php(200): CodeIgniter\Validation\Validation->processRules()
+ 3 SYSTEMPATH/Controller.php(152): CodeIgniter\Validation\Validation->run()
+ 4 APPPATH/Controllers/visaTracking/EmployeeEducation.php(115): CodeIgniter\Controller->validate()
+ 5 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:35:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:35:31 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:35:31 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:35:32 --> ErrorException: Illegal string offset 'employee_id'
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(140): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:35:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:36:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:36:48 --> ErrorException: Undefined variable: education
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(138): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:36:49 --> ErrorException: Undefined variable: education
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(138): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:36:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:36:49 --> ErrorException: Undefined variable: education
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(138): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:37:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:37:58 --> ErrorException: Undefined index: id
+in APPPATH/Controllers/visaTracking/EmployeeEducation.php on line 135.
+ 1 APPPATH/Controllers/visaTracking/EmployeeEducation.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:37:58 --> ErrorException: Undefined index: id
+in APPPATH/Controllers/visaTracking/EmployeeEducation.php on line 135.
+ 1 APPPATH/Controllers/visaTracking/EmployeeEducation.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:37:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:37:58 --> ErrorException: Undefined index: id
+in APPPATH/Controllers/visaTracking/EmployeeEducation.php on line 135.
+ 1 APPPATH/Controllers/visaTracking/EmployeeEducation.php(135): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:38:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:38:41 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(142): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:38:41 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(142): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:38:41 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(142): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:39:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:39:38 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:39:39 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:39:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:39:39 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:40:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:40:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:40:58 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:40:58 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:40:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:40:58 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:41:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 09:41:29 --> ErrorException: Undefined index: employee_id
+in APPPATH/Views/visaTracking/employee/edit_education.php on line 79.
+ 1 APPPATH/Views/visaTracking/employee/edit_education.php(79): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/visaTracking/employee/edit_education.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/visaTracking/EmployeeEducation.php(143): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 09:45:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:45:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:46:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:47:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:47:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:48:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:49:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 09:49:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:12:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:13:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 10:13:01 --> ErrorException: Undefined offset: 0
+in APPPATH/Models/visaTracking/EmployeeModel.php on line 199.
+ 1 APPPATH/Models/visaTracking/EmployeeModel.php(199): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/Home.php(23): App\Models\visaTracking\EmployeeModel->getPassportExpiryDetails()
+ 3 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:13:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 10:13:36 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/dashboard.php on line 59.
+ 1 APPPATH/Views/dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 10:13:39 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/dashboard.php on line 59.
+ 1 APPPATH/Views/dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:15:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 10:15:09 --> ErrorException: Trying to access array offset on value of type null
+in APPPATH/Views/dashboard.php on line 59.
+ 1 APPPATH/Views/dashboard.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/View/View.php(228): include('/var/www/html/visaTracking/app/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1178): CodeIgniter\View\View->render()
+ 5 APPPATH/Controllers/Home.php(26): view()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:40:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:40:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:40:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:40:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:41:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:41:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 10:42:17 --> TypeError: Return value of App\Controllers\visaTracking\EmployeeEducation::update() must be of the type string, none returned
+in APPPATH/Controllers/visaTracking/EmployeeEducation.php on line 142.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:42:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-04-25 10:42:17 --> TypeError: Return value of App\Controllers\visaTracking\EmployeeEducation::update() must be of the type string, none returned
+in APPPATH/Controllers/visaTracking/EmployeeEducation.php on line 142.
+ 1 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\visaTracking\EmployeeEducation->update()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:42:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2024-04-25 10:42:18 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 IS NULL' at line 3 in /var/www/html/visaTracking/system/Database/MySQLi/Connection.php:306
+Stack trace:
+#0 /var/www/html/visaTracking/system/Database/MySQLi/Connection.php(306): mysqli->query()
+#1 /var/www/html/visaTracking/system/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /var/www/html/visaTracking/system/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /var/www/html/visaTracking/system/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+#4 /var/www/html/visaTracking/system/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 /var/www/html/visaTracking/app/Controllers/Home.php(21): CodeIgniter\Model->countAllResults()
+#6 /var/www/html/visaTracking/system/CodeIgniter.php(941): App\Controllers\Home->index()
+#7 /var/www/html/visaTracking/system/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+#8 /var/www/html/visaTracking/system/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+#9 /var/www/html/visaTracking/public/index.php(79): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-04-25 10:42:18 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 IS NULL' at line 3
+in SYSTEMPATH/Database/BaseConnection.php on line 647.
+ 1 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 2 SYSTEMPATH/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 3 APPPATH/Controllers/Home.php(21): CodeIgniter\Model->countAllResults()
+ 4 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 10:42:18 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 IS NULL' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 311.
+ 1 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 2 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 3 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 4 SYSTEMPATH/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 5 APPPATH/Controllers/Home.php(21): CodeIgniter\Model->countAllResults()
+ 6 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-04-25 10:42:18 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ':0:
+AND 1 = :1:
+AND 2 = :2:
+AND 3 IS NULL' at line 3
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 306.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(306): mysqli->query()
+ 2 SYSTEMPATH/Database/BaseConnection.php(693): CodeIgniter\Database\MySQLi\Connection->execute()
+ 3 SYSTEMPATH/Database/BaseConnection.php(607): CodeIgniter\Database\BaseConnection->simpleQuery()
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1700): CodeIgniter\Database\BaseConnection->query()
+ 5 SYSTEMPATH/Model.php(624): CodeIgniter\Database\BaseBuilder->countAllResults()
+ 6 APPPATH/Controllers/Home.php(21): CodeIgniter\Model->countAllResults()
+ 7 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\Home->index()
+ 8 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-04-25 10:42:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:42:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:44:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:45:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:45:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:46:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:46:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:46:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:46:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:46:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:46:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 10:47:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:41:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:41:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 16:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:02:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:03:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:03:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:03:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:06:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-04-25 17:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
