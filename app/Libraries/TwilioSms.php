@@ -11,8 +11,6 @@ class TwilioSms
 
     public function __construct()
     {
-        $sid = getenv('AC360dd92d0e36a2aa144b13eacf90eac6');
-        $token = getenv('8921766f3800a17a14b534c165a60c88');
         $this->twilio = new Client($sid, $token);
     }
 

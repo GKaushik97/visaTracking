@@ -104,3 +104,11 @@ define('PROJECT_TITLE', 'VISA Tracking System');
  * @var string - Cache variable
  */
 define('CCV', 'v2e');
+
+/*Twilio BaseClient variables*/
+const ENV_ACCOUNT_SID = getenv('AC360dd92d0e36a2aa144b13eacf90eac6');
+const ENV_AUTH_TOKEN = getenv('8921766f3800a17a14b534c165a60c88');
+
+/*Twilio Library variables */
+/*$sid = getenv('AC360dd92d0e36a2aa144b13eacf90eac6');
+        $token = getenv('8921766f3800a17a14b534c165a60c88');*/
