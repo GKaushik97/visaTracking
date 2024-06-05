@@ -15,8 +15,8 @@ use Twilio\VersionInfo;
  */
 class BaseClient
 {
-    const ENV_ACCOUNT_SID = 'AC360dd92d0e36a2aa144b13eacf90eac6';
-    const ENV_AUTH_TOKEN = '8921766f3800a17a14b534c165a60c88';
+    const ENV_ACCOUNT_SID = getenv('AC360dd92d0e36a2aa144b13eacf90eac6');
+    const ENV_AUTH_TOKEN = getenv('8921766f3800a17a14b534c165a60c88');
     const ENV_REGION = 'TWILIO_REGION';
     const ENV_EDGE = 'TWILIO_EDGE';
     const DEFAULT_REGION = 'us1';
