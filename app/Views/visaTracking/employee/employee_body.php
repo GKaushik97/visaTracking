@@ -44,6 +44,7 @@ $mobile_val = isset($params['mobile']) ? $params['mobile'] : '';
             <div class="col-auto">
                 <button  type="button" href="javascript:void(0)" class="btn btn-success btn-sm" onclick="addEmployee()"><i class="bi bi-plus-square"></i>&nbsp;Add Employee</button>
                 <button  type="button" href="javascript:void(0)" class="btn btn-info btn-sm" onclick="loadExportModal('<?= $rows; ?>','<?= $page_no; ?>','<?= $sort_by; ?>','<?= $sort_order; ?>')"><i class="bi bi-plus-square"></i>&nbsp;Exports</button>
+                <button  type="button" href="javascript:void(0)" class="btn btn-success btn-sm" onclick="uploadEmployee()"><i class="bi bi-plus-square"></i>&nbsp;Upload</button>
             </div>
             <div class="col-auto">
                 <select class="form-select form-select-sm" name="rows" id="rows" onchange="employeeBody(this.value, '<?= $page_no;?>','<?= $sort_by;?>','<?= $sort_order;?>')">

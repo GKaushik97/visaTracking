@@ -14,6 +14,7 @@
  * @author Ramakrishna<rama@highgoweb.com>
  * @version 1.0
  */
+require_once("/var/www/html/visaTracking/vendor/autoload.php");
 ?>
 <!DOCTYPE html>
 <html lang="en">

@@ -110,6 +110,26 @@ function updateEmployee()
 		}
 	});
 }
+function uploadEmployee() {
+	$.post(WEBROOT+"employee/uploadEmployee", function(data) {
+		loadModal(data);
+	});
+}
+
+function uploadExcel() {
+	$.ajax({
+		'url' : WEBROOT+"employee/uploadExcel",
+		'type' : 'post',
+		'data' : new FormData(document.forms['excel_upload']),
+		'processData' : false,
+		'contentType' : false,
+		success : function(data) {
+			loadModal(data);
+			resetEmployeeBody();
+		}
+
+	});
+}
 
 // view Employee
 function viewEmployee(id, tab=1)

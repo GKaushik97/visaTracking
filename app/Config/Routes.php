@@ -82,4 +82,8 @@ $routes->get('employeDocuments', [App\Controllers\visaTracking\EmployeeDocuments
 $routes->get('employeDocuments/(:any)', [App\Controllers\visaTracking\EmployeeDocuments::class, '$1'], ['filter' => App\Filters\ModuleAuth::class]);
 $routes->post('employeDocuments/(:any)', [App\Controllers\visaTracking\EmployeeDocuments::class, '$1'], ['filter' => App\Filters\ModuleAuth::class]);
 
+$routes->get('visaApi', [App\Controllers\visaTracking\VisaApi::class, 'index'], ['filter' => App\Filters\ModuleAuth::class]);
+$routes->get('visaApi/(:any)', [App\Controllers\visaTracking\VisaApi::class, '$1'], ['filter' => App\Filters\ModuleAuth::class]);
+$routes->post('visaApi/(:any)', [App\Controllers\visaTracking\VisaApi::class, '$1'], ['filter' => App\Filters\ModuleAuth::class]);
+
 $routes->get('configuration',[App\Controllers\Settings\Configuration::class,'index'], ['filer' => App\Filters\ModuleAuth::class]);

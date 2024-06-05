@@ -1,0 +1,367 @@
+INFO - 2024-05-24 16:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 16:44:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 16:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-24 16:44:30 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Controllers/User/Login.php on line 48.
+ 1 APPPATH/Controllers/User/Login.php(48): explode(',', null)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User\Login->loginSubmit('loginSubmit')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:44:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 16:44:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 16:44:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 16:44:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:44:36 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:44:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:44:38 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:50:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:50:50 --> ErrorException: require_once(/var/www/html/visaTracking/app/Controllers/visaTracking/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/visaTracking/Employees.php on line 6.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/visaTracking/Employees.php(6): require_once()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/var/www/html/visaTracking/app/Controllers/visaTracking/Employees.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:51:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:51:03 --> ErrorException: require_once(/var/www/html/visaTracking/app/Controllers/visaTracking/vendor/autoload.php): Failed to open stream: No such file or directory
+in APPPATH/Controllers/visaTracking/Employees.php on line 7.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(7): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 APPPATH/Controllers/visaTracking/Employees.php(7): require_once()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/var/www/html/visaTracking/app/Controllers/visaTracking/Employees.php')
+ 4 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 6 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+ 7 SYSTEMPATH/CodeIgniter.php(899): class_exists()
+ 8 SYSTEMPATH/CodeIgniter.php(489): CodeIgniter\CodeIgniter->startController()
+ 9 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+10 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:51:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:51:11 --> Error: Class "vendor\twilio\sdk\src\Twilio\Base\BaseClient" not found
+in VENDORPATH/twilio/sdk/src/Twilio/Rest/Client.php on line 99.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 APPPATH/Controllers/visaTracking/Employees.php(437): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 4 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 5 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 6 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 7 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 16:56:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:56:24 --> Error: Class "vendor\twilio\sdk\src\Twilio\Base\BaseClient" not found
+in APPPATH/Libraries/Twilio/Rest/Client.php on line 99.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(437): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 16:59:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 16:59:08 --> Error: Class "App\Libraries\Twilio\Http\CurlClient" not found
+in APPPATH/Libraries/Twilio/Base/BaseClient.php on line 78.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(437): App\Libraries\Twilio\Base\BaseClient->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:00:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:00:17 --> Error: Interface "App\Libraries\Twilio\Http\Client" not found
+in APPPATH/Libraries/Twilio/Http/CurlClient.php on line 10.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Libraries/Twilio/Base/BaseClient.php(78): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 APPPATH/Controllers/visaTracking/Employees.php(437): App\Libraries\Twilio\Base\BaseClient->__construct()
+ 6 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 7 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 8 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 9 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:01:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:02:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:02:46 --> Error: Class "App\Libraries\Twilio\Rest\Api" not found
+in APPPATH/Libraries/Twilio/Rest/Client.php on line 154.
+ 1 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getApi()
+ 2 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Base\BaseClient->__get()
+ 3 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:04:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:04:57 --> Error: Class "App\Libraries\Twilio\Domain" not found
+in APPPATH/Libraries/Twilio/Rest/ApiBase.php on line 22.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Libraries/Twilio/Rest/Api.php(6): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once('/var/www/html/visaTracking/app/Libraries/Twilio/Rest/Api.php')
+ 6 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 7 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 8 APPPATH/Libraries/Twilio/Rest/Client.php(154): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 9 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getApi()
+10 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Base\BaseClient->__get()
+11 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+12 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+13 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+14 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+15 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+16 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:05:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:05:21 --> Error: Class "App\Libraries\Twilio\Rest\Api\V2010" not found
+in APPPATH/Libraries/Twilio/Rest/ApiBase.php on line 42.
+ 1 APPPATH/Libraries/Twilio/Rest/ApiBase.php(57): App\Libraries\Twilio\Rest\ApiBase->getV2010()
+ 2 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Rest\ApiBase->__get()
+ 3 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:06:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:06:09 --> Error: Class "App\Libraries\Twilio\Version" not found
+in APPPATH/Libraries/Twilio/Rest/Api/V2010.php on line 72.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Libraries/Twilio/Rest/ApiBase.php(42): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 APPPATH/Libraries/Twilio/Rest/ApiBase.php(57): App\Libraries\Twilio\Rest\ApiBase->getV2010()
+ 6 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Rest\ApiBase->__get()
+ 7 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 8 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 9 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:08:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:08:06 --> Error: Class "App\Libraries\Twilio\Rest\Api\V2010\AccountContext" not found
+in APPPATH/Libraries/Twilio/Rest/Api/V2010.php on line 126.
+ 1 APPPATH/Libraries/Twilio/Rest/Api/V2010.php(276): App\Libraries\Twilio\Rest\Api\V2010->getAccount()
+ 2 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Rest\Api\V2010->__get()
+ 3 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:10:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:10:46 --> Error: Class "App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList" not found
+in APPPATH/Libraries/Twilio/Rest/Api/V2010/AccountContext.php on line 228.
+ 1 APPPATH/Libraries/Twilio/Rest/Api/V2010/AccountContext.php(563): App\Libraries\Twilio\Rest\Api\V2010\AccountContext->getMessages()
+ 2 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Rest\Api\V2010\AccountContext->__get()
+ 3 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:11:27 --> Error: Class "App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList" not found
+in APPPATH/Libraries/Twilio/Rest/Api/V2010/AccountContext.php on line 228.
+ 1 APPPATH/Libraries/Twilio/Rest/Api/V2010/AccountContext.php(563): App\Libraries\Twilio\Rest\Api\V2010\AccountContext->getMessages()
+ 2 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Rest\Api\V2010\AccountContext->__get()
+ 3 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:12:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:12:35 --> Error: Class "App\Libraries\Twilio\ListResource" not found
+in APPPATH/Libraries/Twilio/Rest/Api/V2010/Account/MessageList.php on line 28.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Libraries/Twilio/Rest/Api/V2010/AccountContext.php(228): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 APPPATH/Libraries/Twilio/Rest/Api/V2010/AccountContext.php(563): App\Libraries\Twilio\Rest\Api\V2010\AccountContext->getMessages()
+ 6 APPPATH/Libraries/Twilio/Rest/Client.php(606): App\Libraries\Twilio\Rest\Api\V2010\AccountContext->__get()
+ 7 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 8 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 9 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+10 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+11 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+12 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:13:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:13:09 --> TypeError: App\Libraries\Twilio\Rest\Client::getMessages(): Return value must be of type Twilio\Rest\Api\V2010\Account\MessageList, App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList returned
+in APPPATH/Libraries/Twilio/Rest/Client.php on line 606.
+ 1 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 2 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 3 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:14:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:14:50 --> TypeError: App\Libraries\Twilio\Rest\Client::getMessages(): Return value must be of type App\Libraries\Twilio\Rest\App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList, App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList returned
+in APPPATH/Libraries/Twilio/Rest/Client.php on line 606.
+ 1 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 2 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 3 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:15:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:15:32 --> TypeError: App\Libraries\Twilio\Rest\Client::getMessages(): Return value must be of type Libraries\Twilio\Rest\Api\V2010\Account\MessageList, App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList returned
+in APPPATH/Libraries/Twilio/Rest/Client.php on line 606.
+ 1 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 2 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 3 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:21:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:21:53 --> TypeError: App\Libraries\Twilio\Rest\Client::getMessages(): Return value must be of type Libraries\Twilio\Rest\Api\V2010\Account\MessageList, App\Libraries\Twilio\Rest\Api\V2010\Account\MessageList returned
+in APPPATH/Libraries/Twilio/Rest/Client.php on line 606.
+ 1 APPPATH/Libraries/Twilio/Base/BaseClient.php(231): App\Libraries\Twilio\Rest\Client->getMessages()
+ 2 APPPATH/Controllers/visaTracking/Employees.php(440): App\Libraries\Twilio\Base\BaseClient->__get()
+ 3 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 4 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 5 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 6 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:30:53 --> Error: Undefined constant "App\Libraries\APPATH"
+in APPPATH/Libraries/TwilioSms.php on line 4.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(290): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 SYSTEMPATH/Autoloader/Autoloader.php(266): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(436): CodeIgniter\Autoloader\Autoloader->loadClass()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:31:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:31:28 --> Error: Undefined constant "app\Controllers\visaTracking\APPATH"
+in APPPATH/Controllers/visaTracking/Employees.php on line 44.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->index()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:31:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:31:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:31:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:31:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:31:57 --> Error: Class "vendor\twilio\sdk\src\Twilio\Base\BaseClient" not found
+in VENDORPATH/twilio/sdk/src/Twilio/Rest/Client.php on line 99.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 APPPATH/Libraries/TwilioSms.php(16): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(437): App\Libraries\TwilioSms->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:33:14 --> Error: Class "vendor\twilio\sdk\src\Twilio\Base\BaseClient" not found
+in VENDORPATH/twilio/sdk/src/Twilio/Rest/Client.php on line 99.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 APPPATH/Libraries/TwilioSms.php(16): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(437): App\Libraries\TwilioSms->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:34:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:34:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:34:28 --> Error: Class "vendor\twilio\sdk\src\Twilio\Base\BaseClient" not found
+in VENDORPATH/twilio/sdk/src/Twilio/Rest/Client.php on line 99.
+ 1 SYSTEMPATH/Autoloader/Autoloader.php(311): include_once()
+ 2 SYSTEMPATH/Autoloader/Autoloader.php(253): CodeIgniter\Autoloader\Autoloader->includeFile()
+ 3 APPPATH/Libraries/TwilioSms.php(16): CodeIgniter\Autoloader\Autoloader->loadClassmap()
+ 4 APPPATH/Controllers/visaTracking/Employees.php(436): App\Libraries\TwilioSms->__construct()
+ 5 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 6 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 7 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 8 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:35:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:35:04 --> Error: Class "vendor\twilio\sdk\srcTwilio\Rest\Client" not found
+in APPPATH/Libraries/TwilioSms.php on line 16.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(436): App\Libraries\TwilioSms->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:35:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:35:53 --> Error: Class "vendor\twilio\sdk\srcTwilio\Rest\Client" not found
+in APPPATH/Libraries/TwilioSms.php on line 16.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(436): App\Libraries\TwilioSms->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:37:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:37:17 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Libraries/TwilioSms.php on line 16.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(436): App\Libraries\TwilioSms->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:37:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:37:21 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Libraries/TwilioSms.php on line 16.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(436): App\Libraries\TwilioSms->__construct()
+ 2 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:38:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:38:13 --> ErrorException: Cannot declare class vendor\twilio\sdk\src\Twilio\Base\BaseClient, because the name is already in use
+in VENDORPATH/twilio/sdk/src/Twilio/Base/BaseClient.php on line 16.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+INFO - 2024-05-24 17:39:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-24 17:39:05 --> ErrorException: Undefined property: App\Libraries\TwilioSms::$messages
+in APPPATH/Controllers/visaTracking/Employees.php on line 442.
+ 1 APPPATH/Controllers/visaTracking/Employees.php(442): CodeIgniter\Debug\Exceptions->errorHandler()
+ 2 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-24 17:41:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:41:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:42:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:42:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:43:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:43:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:43:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:44:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:44:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:44:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:45:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:45:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:45:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:48:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:48:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:48:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:48:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:48:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-24 17:48:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

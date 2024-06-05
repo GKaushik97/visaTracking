@@ -1,0 +1,84 @@
+INFO - 2024-05-16 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:05:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-05-16 12:05:07 --> [DEPRECATED] explode(): Passing null to parameter #2 ($string) of type string is deprecated in APPPATH/Controllers/User/Login.php on line 48.
+ 1 APPPATH/Controllers/User/Login.php(48): explode(',', null)
+ 2 SYSTEMPATH/CodeIgniter.php(941): App\Controllers\User\Login->loginSubmit('loginSubmit')
+ 3 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\User\Login))
+ 4 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:05:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:05:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:05:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:05:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:05:16 --> Error: Class "App\vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:08:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:08:27 --> Error: Class "App\vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:09:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:09:46 --> Error: Class "App\vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:19:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:19:42 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:20:25 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:20:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-05-16 12:20:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:20:38 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:21:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:21:35 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:30:10 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:44:29 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()
+INFO - 2024-05-16 12:48:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-05-16 12:48:05 --> Error: Class "vendor\twilio\sdk\src\Twilio\Rest\Client" not found
+in APPPATH/Controllers/visaTracking/Employees.php on line 436.
+ 1 SYSTEMPATH/CodeIgniter.php(941): app\Controllers\visaTracking\Employees->updateEmployee()
+ 2 SYSTEMPATH/CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController()
+ 3 SYSTEMPATH/CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest()
+ 4 FCPATH/index.php(79): CodeIgniter\CodeIgniter->run()

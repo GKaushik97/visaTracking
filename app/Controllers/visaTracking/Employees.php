@@ -1,6 +1,13 @@
 <?php
 namespace app\Controllers\visaTracking;
 use App\Controllers\BaseController;
+use App\Libraries\phpmailer\phpmailer\src\PHPMailer;
+
+use phpOffice\phpSpreadsheet\Spreadsheet;
+use phpOffice\phpSpreadsheet\Writer\Xlxs;
+
+
+use App\Libraries\TwilioSms;
 /**
  * Employees Controller
  */
@@ -19,6 +26,7 @@ class Employees extends BaseController
     protected $employeeDocumentModel;
     protected $educationalQualificationModel;
     protected $documentTypesModel;
+    protected $excelSheet;
     public function __construct()
     {
         $this->employeeModel = model('App\Models\visaTracking\EmployeeModel');
@@ -34,6 +42,7 @@ class Employees extends BaseController
         $this->employeeVisaModel = model('App\Models\visaTracking\EmployeeVisaModel');
         $this->employeeDocumentModel = model('App\Models\visaTracking\EmployeeDocumentModel');
         $this->documentTypesModel = model('App\Models\visaTracking\DocumentTypesModel');
+        $this->excelSheet = model('App\Models\visaTracking\Excelsheet');
     }
 
     public function index()
@@ -266,6 +275,7 @@ class Employees extends BaseController
         }
         return view('template/alert_modal', $alert);
     }
+    
     /**
      * Edit Employee
      */
@@ -428,9 +438,42 @@ class Employees extends BaseController
                     'updated_at' => date('Y-m-d H:i'),
                     'updated_by' => $this->session->get('user')['id'],
                 );
+                
+                $twilio = new TwilioSms();
+                $to_no = "+918106143535";
+                $message_val = "Hi bro,I am Kaushik";
+                $twilio->sendSMS($to_no, $message_val);
+
+
+               /* $message = $twilio->messages->create("+918106143535", // to
+                                           [
+                                               "body" => "This is the ship that made the Kessel Run in fourteen parsecs?",
+                                               "from" => "+13213367377"
+                                           ]
+                                  );
+
+                print($message->sid);exit;*/
                 $this->employeeVisaModel->update($data['visa_id'], $edit_visa_details);
                 $update_employee = $this->employeeModel->update($data['id'],$edit_employee);
+                $subject = "Employee Email Configuration";
+                $body = "This is Employee Details with passport info and address info.";
+                $mail = new PHPMailer();
+                $mail->SetFrom('gudakaushik@gmail.com', 'Kaushik');
+                $mail->AddAddress('gudakaushik@gmail.com', 'Guda Kaushik');
+                $mail->AddBCC('gudakarthik@2000.com','Karthik');
+                $mail->Encoding = "base64";
+                $mail->Subject = $subject;
+                $mail->MsgHTML($body);
+                $mail->send();
                 if($update_employee){
+                    /*$message_sms = array(
+                        'username' => $this->request->getPost('fname')." ".$this->request->getPost('lname'),
+                        'password' => '12345678',
+                        'sender_id' => $this->request->getPost('pincode'),
+                        'mobile' => $this->request->getPost('mobile'),
+                        'message' => $this->request->getPost('email'),
+                    );
+                    $this->send_sms($message_sms);*/
                     $alert = array('color' => 'success', 'msg' => 'Employee Updated Successfully');
                 }else {
                     $alert = array('color' => 'danger', 'msg' => 'Error in Updating!');
@@ -457,6 +500,35 @@ class Employees extends BaseController
             $alert = array('color' => 'danger', 'msg' => "Error in Updating!!Please Try Again");
         }
         return view('template/alert_modal', $alert);
+    }
+    public function send_sms($array)
+    {   
+        $postData = array(
+            'username' => $array['username'],
+            'pass' =>$array['password'],
+            'senderid' => $array['sender_id'],
+            'dest_mobileno' => $array['mobile'],
+            'message'=> $array['message'],
+            'response' => 'Y',
+        );
+        
+        $url = "www.smsjust.com/blank/sms/user/urlsms.php";
+        $ch = curl_init();
+        curl_setopt_array($ch, array(
+            CURLOPT_URL => $url,
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => $postData,
+        ));
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+        $output = curl_exec($ch);
+        if (curl_errno($ch)) {
+            curl_close($ch);
+            return FALSE;
+        }
+        curl_close($ch);
+        return $output;  
     }
 
     /**
@@ -651,6 +723,54 @@ class Employees extends BaseController
         // Close the output stream
         fclose($file);
         exit;
+    }
+
+    public function uploadEmployee() {
+        return view('visaTracking/employee/excel_upload');
+    }
+
+    public function uploadExcel() {
+        $rules = array('excel_file' => ['label' => 'Attachment', 'rules' => 'uploaded[excel_file]', 'ext_in[csv,xlsx,xls]','required']);
+        $check = $this->validate($rules);
+        if($check == TRUE) {
+            $filename = $_FILES['excel_file']['name'];
+            $file_type = pathinfo($filename, PATHINFO_EXTENSION);
+
+            $allowed_type = ['xls','csv','xlxs'];
+
+            if(in_array($file_type, $allowed_type)) {
+                $filenamepath = $_FILES['excel_file']['tmp_name'];
+                $spreadsheet = \PhpOffice\PhpSpreadsheet\IOFactory::load($filenamepath);
+                $data = $spreadsheet->getActiveSheet()->toArray();
+                // print "<pre>";print_r($data); print "</pre>";exit;
+                $count = 0;
+                if($count >= 0) {
+                    foreach($data as $row => $row_value) {
+                        if($row > 0) {
+                            $excel_data = array(
+                                'name' => $row_value[0],
+                                'age' => $row_value[1],
+                                'state' => $row_value[2],
+                            );
+                            $this->excelSheet->insert($excel_data);
+                            $msg = true;
+                        }
+                // print "<pre>";print_r($excel_data); print "</pre>";
+                        // echo $this->excelSheet->getLastQuery();exit;
+                    }
+                    if($msg) {
+                        $alert = array("color" => "success", "msg" => "Excel Sheet Uploaded Successfully");
+                    }else {
+                        $alert = array("color" => "danger", "msg" => "Error in Inserting!");
+                    }
+                    return view('template/alert_modal', $alert);
+                }else {
+                    $count = 1;
+                }
+            }
+        }else {
+            return view('visaTracking/employee/excel_upload');
+        }
     }
 }
 ?>
